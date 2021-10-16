@@ -1,0 +1,36 @@
+body
+{
+    background: #24353f;
+    font-family: sans-serif;
+}
+.navbar
+{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0)
+}
+.nav-item a
+{
+    color: rgba(255,255,255,.5);
+    padding: 8px 8px;
+}
+.nav-item a:hover
+{
+    color: #fff;
+}
+
+.card
+{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background-color: #24353f;
+    width: 65%;
+}
+.container
+{
+    height: 70vh !important;
+    overflow: hidden;
+}
+.container h1
+{
+   color: #17a2b8;
+}
+

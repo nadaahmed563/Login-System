@@ -1,0 +1,41 @@
+body
+{
+    background: #24353f;
+    font-family: sans-serif;
+}
+.container .card
+{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background: #24353f;
+    width: 65%;
+
+}
+.container .card h1
+{
+    color: #17a2b8;
+    
+}
+.container .card input
+{
+    background-color: transparent;
+    color: #fff;
+}
+input:focus, textarea:focus 
+{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.container .card input:focus
+{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%)
+}
+
+.container .card a 
+{
+    text-decoration: none;
+}
+.container .card a:hover
+{
+    text-decoration: underline;
+}

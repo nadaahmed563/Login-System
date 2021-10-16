@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+
+    <div class="container text-center py-5">
+        <div class="card m-auto p-5">
+            <h1>
+                Smart Login System
+            </h1>
+            
+            
+            <label for=""></label>
+            <input type="text" id="signUpName" placeholder="Enter your name" class="form-control my-2">
+            
+            <label for=""></label>
+            <input type="text" id="emailSignUP" placeholder="Enter your email" class="form-control my-2">
+           
+
+            <label for=""></label>
+            <input type="password" id="passSignUP" placeholder="Enter your password" class="form-control my-2">
+
+            <p id="exist"></p>
+
+            <p id="alert" class=" text-danger w-25 m-auto d-none my-1">All inputs is required</p>
+
+            <p id="alertEmail" class=" text-danger w-25 m-auto d-none my-1">Email is already Exist</p>
+            <p id="Success" class=" text-success w-25 m-auto d-none my-1">Success</p>
+
+            <button class="btn btn-outline-info my-4" id="signUpBtn" onclick="signUpButton()">Sign Up</button>
+
+            <p class="text-white">
+                You have an account?
+                <a class="text-white" href="../index.html">Sign In</a>
+
+            </p>
+
+        </div>
+    </div>
+    
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
